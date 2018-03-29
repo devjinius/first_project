@@ -1,0 +1,59 @@
+
+.main {
+    width: 70%;
+    float: right;
+}
+.main>img {
+    width: 50em;
+}
+
+.head {
+    margin-bottom: 1em;
+    background-color: orangered;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: antiquewhite;
+    border: solid black 2px;
+    margin-right: 3em;
+}
+
+.clear {
+    clear: both;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 1em;
+}
+
+.myli {
+    list-style: none;
+    padding-bottom: 0.2em;
+  
+    max-width: 250px;
+    width: 100%;
+
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+}
+
+span.bold {
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+}
+
+.row {
+    display: flex; /* equal height of the children */
+}
+  
+.col {
+    flex: 1; /* additionally, equal width */
+}
